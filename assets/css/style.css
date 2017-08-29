@@ -239,7 +239,7 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
 
   #main-container {
     width: 100%;
@@ -249,8 +249,14 @@ input[type=submit] {
   .sidebar {
     width: 100%;
     max-width: 650px;
-    margin: 40px;
-    clear: both;
+    float: left;
+  }
+
+  .auth-image {
+    width:50%;
+
+  .navicons{
+    margin-right: 20px;
   }
 
 }
@@ -289,5 +295,9 @@ input[type=submit] {
     width: 100%;
   }
 
+  .navicons{
+    text-align: center;
+    margin-left: 100px;
+  }
 
 }
