@@ -237,3 +237,57 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  #main-container {
+    width: 100%;
+    margin-left: 40px;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 650px;
+    margin: 40px;
+    clear: both;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  #main-container {
+  margin-left: 10px;
+  }
+
+  .auth-image {
+    width:100%;
+  }
+
+    #main-container {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 600px;
+    float: left;
+  }
+
+  .work {
+    width: 550px;
+  }
+
+  #logo {
+    width: 100%;
+  }
+
+  #navbar {
+
+    width: 100%;
+  }
+
+
+}
